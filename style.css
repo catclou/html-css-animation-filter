@@ -90,7 +90,15 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 2s;
 }
+
+.ex-9-img:hover {
+    filter: brightness(20%) contrast(80%);
+    border-radius: 40px;
+    width: 600px;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
