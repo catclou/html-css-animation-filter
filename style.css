@@ -101,7 +101,7 @@
 
 .ex-10-icon {
     font-size: 60px;
-    animation: giragira 1s infinite;
+    animation: giragira 1s ease-in infinite;
 }
 
 @keyframes giragira {
@@ -128,7 +128,7 @@
 
 .ex-11-icon:hover {
     font-size: 60px;
-    animation: au-contraire-mon-ami 1s infinite;
+    animation: au-contraire-mon-ami 1s ease-in infinite;
 }
 
 @keyframes au-contraire-mon-ami {
