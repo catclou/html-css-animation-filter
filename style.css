@@ -126,6 +126,28 @@
     font-size: 60px;
 }
 
+.ex-11-icon:hover {
+    font-size: 60px;
+    animation: au-contraire-mon-ami 1s infinite;
+}
+
+@keyframes au-contraire-mon-ami {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
 
 
 .ex-12-button, .ex-13-button {
