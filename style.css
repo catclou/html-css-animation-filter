@@ -172,6 +172,22 @@
     height: 20px;
 }
 
+.ex-12-button:hover .ex-12-top-white {
+    animation: quella-di-sopra 1s ease-in;
+}
+
+@keyframes quella-di-sopra {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: 60%;
+    }
+    100% {
+        left: 10%;
+    }
+}
+
 .ex-12-bottom-white {
     position: absolute;
     bottom: -10px;
@@ -179,6 +195,22 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: quella-di-sotto 1s ease-in;
+}
+
+@keyframes quella-di-sotto {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: 60%;
+    }
+    100% {
+        right: 20%;
+    }
 }
 
 .ex-13-top-white {
