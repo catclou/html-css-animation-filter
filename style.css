@@ -60,7 +60,7 @@
     height: 30px;
 }
 
-.ex-6-img, .ex-8-img {
+.ex-6-img  {
     width: 500px;
 }
 
@@ -75,6 +75,16 @@
 
 .ex-7-img:hover {
     filter: invert(100%) hue-rotate(90deg);
+}
+
+.ex-8-img {
+    width: 500px;
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    filter: sepia(100%) blur(5px);
+    border-radius: 40px;
 }
 
 .ex-9-img {
